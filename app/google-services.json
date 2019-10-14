@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "491897842075",
+    "firebase_url": "https://inchat-f7cf7.firebaseio.com",
+    "project_id": "inchat-f7cf7",
+    "storage_bucket": "inchat-f7cf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491897842075:android:7f4067b4416a948a",
+        "android_client_info": {
+          "package_name": "ru.sigmadigital.inchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491897842075-5k2uf3ircjkaec05neo3eh5dkip60chu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABkPCuIvrkFUTpyW23Qq6u9ZYJe1KCUrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491897842075-5k2uf3ircjkaec05neo3eh5dkip60chu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

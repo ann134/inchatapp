@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">InChat</string>
+
+    <integer name="com_vk_sdk_AppId">7024436</integer>
+
+    <string name="server_client_id">491897842075-5k2uf3ircjkaec05neo3eh5dkip60chu.apps.googleusercontent.com</string>
+
+
+    <!--login-->
+    <string name="registration">Регистрация</string>
+    <string name="input">Вход</string>
+    <string name="enter">ВОЙТИ</string>
+    <string name="register">ЗАРЕГЕСТРИРОВАТЬСЯ</string>
+
+    <string name="name">Имя</string>
+    <string name="email_login">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="password_again">Пароль еще раз</string>
+    <string name="remember_password">ВСПОМНИТЬ ПАРОЛЬ</string>
+    <string name="or">ИЛИ</string>
+    <string name="vk">ВКОНТАКТЕ</string>
+    <string name="google">GOOGLE</string>
+    <string name="passes_not_equals">Пароли не совпадают</string>
+
+    <!--bottom nav-->
+    <string name="home">Главная</string>
+    <string name="chats">Чаты</string>
+    <string name="news">Новости</string>
+    <string name="menu">Меню</string>
+
+    <!--menu-->
+    <string name="subscribes">Подписки</string>
+    <string name="money">Кошелёк</string>
+    <string name="settings">Настройки</string>
+    <string name="about">О приложении</string>
+    <string name="go_to_profile">Перейти к профилю</string>
+
+    <!--profile-->
+    <string name="date_of_birth">Дата рождения:</string>
+    <string name="city">Город:</string>
+    <string name="email">Почта:</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="show_all_rates">Смотреть все отзывы</string>
+    <string name="show_all_fotos">Смотреть все фотографии</string>
+    <string name="rates">Отзывы</string>
+    <string name="fotos">Фотографии</string>
+    <string name="orders_ex_rework">Заказов на доработке</string>
+    <string name="active_orders">Активные заказы</string>
+    <string name="orders_finished">Завершенных заказов</string>
+    <string name="orders_created">Создано заказов</string>
+    <string name="executor_statictic">Статистика заказчика</string>
+    <string name="orders_in_rework">Заказы на доработке</string>
+    <string name="orders_failed_in_process">Просроченные на выполнении</string>
+    <string name="orders_in_process">Заказов на выполнении</string>
+    <string name="orders_failed">Не выполнено заказов</string>
+    <string name="orders_on_check">Выполнено, на проверке</string>
+    <string name="orders_done">Выполнено заказов</string>
+    <string name="statictic_customer">Статистика исполнителя</string>
+
+    <!--edit profile-->
+    <string name="userid">Личный ID</string>
+    <string name="save_changes">Применить изменения</string>
+    <string name="delete_all_fotos">Удалить все фотографии</string>
+
+
+
+</resources>

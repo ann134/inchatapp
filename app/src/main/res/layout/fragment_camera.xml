@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+<TextureView
+    android:id="@+id/texture_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+
+    <TextView
+        android:id="@+id/permission_denied"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="разрешите использование камеры"
+        android:textAlignment="center"
+
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="в настройках"
+        android:textAlignment="center"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="@id/permission_denied"
+        app:layout_constraintRight_toRightOf="@id/permission_denied"
+        app:layout_constraintTop_toBottomOf="@id/permission_denied" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

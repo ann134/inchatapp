@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--
+    <Button
+        android:id="@+id/bt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="refresh" />
+
+    <Button
+        android:id="@+id/bt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user me" />
+
+    <Button
+        android:id="@+id/bt_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user id" />
+
+    <Button
+        android:id="@+id/bt_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="userRequest" />
+
+    <Button
+        android:id="@+id/bt_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="portfolio me" />
+
+    <Button
+        android:id="@+id/bt_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="portfolio id" />
+
+    <Button
+        android:id="@+id/bt_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete portfolio item" />
+
+    <Button
+        android:id="@+id/bt_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete Sticker Photo" />
+
+    <Button
+        android:id="@+id/bt_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get my sticker photo" />
+
+    <Button
+        android:id="@+id/bt_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get id sticker photo" />
+
+    <Button
+        android:id="@+id/bt_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="updatePortfolioItem" />
+
+    <Button
+        android:id="@+id/bt_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="restorePassword" />
+
+    <Button
+        android:id="@+id/bt_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="restorePasswordRestore" />-->
+
+</LinearLayout>

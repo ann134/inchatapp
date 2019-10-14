@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/profile_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imv_avatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:civ_border_color="@color/blue"
+            app:civ_border_width="2dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/text_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/tv_text"
+            app:layout_constraintLeft_toRightOf="@id/imv_avatar"
+            app:layout_constraintTop_toTopOf="@id/imv_avatar"
+            app:layout_constraintVertical_chainStyle="spread_inside" />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/go_to_profile"
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@id/ic_karma"
+            app:layout_constraintLeft_toRightOf="@id/imv_avatar"
+            app:layout_constraintTop_toBottomOf="@id/tv_name" />
+
+        <ImageView
+            android:id="@+id/ic_karma"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/text_dark"
+            android:src="@drawable/ic_karma"
+            app:layout_constraintTop_toBottomOf="@id/tv_text"
+            app:layout_constraintBottom_toBottomOf="@id/imv_avatar"
+            app:layout_constraintLeft_toRightOf="@id/imv_avatar" />
+
+        <TextView
+            android:id="@+id/tv_karma_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/text_dark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/imv_avatar"
+            app:layout_constraintLeft_toRightOf="@id/ic_karma" />
+
+        <ImageView
+            android:id="@+id/ic_profi"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/ic_profi"
+            app:layout_constraintBottom_toBottomOf="@id/imv_avatar"
+            app:layout_constraintLeft_toRightOf="@id/tv_karma_value" />
+
+        <TextView
+            android:id="@+id/tv_profi_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/text_dark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/imv_avatar"
+            app:layout_constraintLeft_toRightOf="@id/ic_profi" />
+
+
+
+        <ImageView
+            android:id="@+id/ic_arrow"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/text_dark"
+            android:src="@drawable/ic_arrow_left"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ru.sigmadigital.inchat.views.MenuView
+        android:id="@+id/subscribes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ru.sigmadigital.inchat.views.MenuView
+        android:id="@+id/money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ru.sigmadigital.inchat.views.MenuView
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ru.sigmadigital.inchat.views.MenuView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

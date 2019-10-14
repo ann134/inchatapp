@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp"
+        android:text="Рик Далтон"
+        android:textColor="@color/text_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="комментарий"
+        android:textColor="@color/text_light"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"/>
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:layout_marginRight="16dp"
+        android:text="Пользовались данным ресурсом 2 раза. Задумка хорошая. Выгодно и исполнителям найти заказчиков, и заказчикам - можно сэкономить. Главное ответственно подойти к выбору исполнителя (изучить профиль, фото, которые выкладывают ответственные исполнители. например своих работ, или имеющегося оборудования, техники, которая будет использована при исполнении Вашего задания) и читать ОТЗЫВЫ! Именно значение отзывов сложно переоценить, так как возможности саморекламы, да еще в инете безграничны, а вот повлиять на мнение своих клиентов можно только качеством и профессионализмом, НО! не всегда можно оценить качество работы непосредственно после выполнения работы, есть еще проверка качества временем, в разумных пределах конечно, вот за это то и ставлю 1 звезду, ибо исправить, дополнить свой отзыв на данном ресурсе можно только номинально. Об этом подробнее ниже. Соответственно другие заказчики, прочитав наш положительный отзыв, так же получить некачественное исполнение."
+        android:textColor="@color/text_dark"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_comment" />
+
+    <TextView
+        android:id="@+id/tv_order"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="заказ"
+        android:textColor="@color/text_light"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tv_date"
+        app:layout_constraintTop_toBottomOf="@id/tv_message"/>
+
+    <TextView
+        android:id="@+id/tv_order_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="876554"
+        android:textColor="@color/text_dark"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@id/tv_order"
+        app:layout_constraintTop_toBottomOf="@id/tv_order"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="дата"
+        android:textColor="@color/text_light"
+        android:textSize="12sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/tv_order"
+        app:layout_constraintTop_toBottomOf="@id/tv_message"/>
+
+    <TextView
+        android:id="@+id/tv_date_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="89:87:09"
+        android:textColor="@color/text_dark"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@id/tv_date"
+        app:layout_constraintTop_toBottomOf="@id/tv_date"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/gray_bg"
+        app:layout_constraintTop_toBottomOf="@id/tv_date_value" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

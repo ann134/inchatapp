@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#666666</color>
+    <color name="colorAccent">#5988FF</color>
+
+
+    <color name="blue">#5988FF</color>
+    <color name="blue_press">#3F60B6</color>
+
+    <color name="red">#FF6C6C</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_alfa_60">#99000000</color>
+
+
+
+
+    <!-- text-->
+    <color name="text_light">#99333333</color>
+    <color name="text_dark">#333333</color>
+    <color name="text_gray">#858585</color>
+    <color name="message_dark">#333333</color>
+
+
+    <!-- gray-->
+    <color name="gray_line">#efeff0</color>
+    <color name="gray_bg">#10444444</color>
+    <color name="gray_bg_alfa_30">#4D444444</color>
+    <color name="gray_light_bg">#ECECEC</color>
+    <color name="navBarInactive">#444444</color>
+
+
+
+</resources>
